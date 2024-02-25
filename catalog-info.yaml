@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pincservices-akka-sample
+  title: Akka Sample application
+  description: Spring boot application with akka. Just a sample application.
+  tags:
+    - springboot
+    - akka
+spec:
+  type: service
+  owner: user:zigu
+  lifecycle: experimental
